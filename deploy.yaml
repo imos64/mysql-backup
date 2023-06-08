@@ -27,7 +27,7 @@ spec:
       storage: 10Gi
 
 ---
-apiVersion: mysql.oracle.com/v2
+apiVersion: mysql.oracle.com/v1
 kind: InnoDBCluster
 metadata:
   name: mysql-cls
