@@ -17,6 +17,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: ahyehaprod-backup-pvc
+  namespace: ahyeha-prod
 spec:
   storageClassName: manual
   accessModes:
