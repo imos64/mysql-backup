@@ -28,9 +28,9 @@ spec:
 
 ---
 apiVersion: apps/v1
-kind: InnoDBCluster
+kind: MySQLBackup
 metadata:
-  name: mysql-clst
+  name: mysql-cls
   namespace: ahyeha-prod
 spec:
   instances: 3
