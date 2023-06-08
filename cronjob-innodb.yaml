@@ -27,10 +27,10 @@ spec:
       storage: 10Gi
 
 ---
-apiVersion: mysql.oracle.com/v2
+apiVersion: apps/v1
 kind: InnoDBCluster
 metadata:
-  name: mysql-cls
+  name: mysql-clst
   namespace: ahyeha-prod
 spec:
   instances: 3
